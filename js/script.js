@@ -248,6 +248,7 @@ async function ambilDataFormkontak() {
       },
       body: JSON.stringify(dataformkontak),
     });
+    
 
     if (response.ok) {
       console.log("Data berhasil dikirim ke server");
